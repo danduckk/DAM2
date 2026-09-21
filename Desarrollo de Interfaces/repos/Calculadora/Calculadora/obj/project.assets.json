@@ -13,11 +13,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD:Desarrollo de Interfaces/repos/Calculadora/obj/project.assets.json
       "projectUniqueName": "C:\\Users\\danis\\Desktop\\DAM2\\Desarrollo de Interfaces\\repos\\Calculadora\\Calculadora.csproj",
       "projectName": "Calculadora",
       "projectPath": "C:\\Users\\danis\\Desktop\\DAM2\\Desarrollo de Interfaces\\repos\\Calculadora\\Calculadora.csproj",
       "packagesPath": "C:\\Users\\danis\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\danis\\Desktop\\DAM2\\Desarrollo de Interfaces\\repos\\Calculadora\\obj\\",
+=======
+      "projectUniqueName": "Z:\\repos\\Calculadora\\Calculadora\\Calculadora.csproj",
+      "projectName": "Calculadora",
+      "projectPath": "Z:\\repos\\Calculadora\\Calculadora\\Calculadora.csproj",
+      "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
+      "outputPath": "Z:\\repos\\Calculadora\\Calculadora\\obj\\",
+>>>>>>> 6426cc838ddfd6d65106174d01b4350bc3db0194:Desarrollo de Interfaces/repos/Calculadora/Calculadora/obj/project.assets.json
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\danis\\AppData\\Roaming\\NuGet\\NuGet.Config"

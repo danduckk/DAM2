@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD:Desarrollo de Interfaces/repos/Calculadora/obj/Calculadora.csproj.nuget.dgspec.json
     "C:\\Users\\danis\\Desktop\\DAM2\\Desarrollo de Interfaces\\repos\\Calculadora\\Calculadora.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\danis\\Desktop\\DAM2\\Desarrollo de Interfaces\\repos\\Calculadora\\Calculadora.csproj",
         "packagesPath": "C:\\Users\\danis\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\danis\\Desktop\\DAM2\\Desarrollo de Interfaces\\repos\\Calculadora\\obj\\",
+=======
+    "Z:\\repos\\Calculadora\\Calculadora\\Calculadora.csproj": {}
+  },
+  "projects": {
+    "Z:\\repos\\Calculadora\\Calculadora\\Calculadora.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\repos\\Calculadora\\Calculadora\\Calculadora.csproj",
+        "projectName": "Calculadora",
+        "projectPath": "Z:\\repos\\Calculadora\\Calculadora\\Calculadora.csproj",
+        "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
+        "outputPath": "Z:\\repos\\Calculadora\\Calculadora\\obj\\",
+>>>>>>> 6426cc838ddfd6d65106174d01b4350bc3db0194:Desarrollo de Interfaces/repos/Calculadora/Calculadora/obj/Calculadora.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danis\\AppData\\Roaming\\NuGet\\NuGet.Config"

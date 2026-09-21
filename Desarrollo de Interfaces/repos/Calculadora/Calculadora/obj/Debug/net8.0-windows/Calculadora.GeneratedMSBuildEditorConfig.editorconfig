@@ -17,7 +17,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Calculadora
+<<<<<<< HEAD:Desarrollo de Interfaces/repos/Calculadora/obj/Debug/net8.0-windows/Calculadora.GeneratedMSBuildEditorConfig.editorconfig
 build_property.ProjectDir = C:\Users\danis\Desktop\DAM2\Desarrollo de Interfaces\repos\Calculadora\
+=======
+build_property.ProjectDir = Z:\repos\Calculadora\Calculadora\
+>>>>>>> 6426cc838ddfd6d65106174d01b4350bc3db0194:Desarrollo de Interfaces/repos/Calculadora/Calculadora/obj/Debug/net8.0-windows/Calculadora.GeneratedMSBuildEditorConfig.editorconfig
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
