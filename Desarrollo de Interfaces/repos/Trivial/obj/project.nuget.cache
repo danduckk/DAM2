@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BA/oG52siAw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danis\\Desktop\\DAM2\\Desarrollo de Interfaces\\repos\\Trivial\\Trivial.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danis\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.31\\microsoft.windowsdesktop.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\danis\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.31\\microsoft.netcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\danis\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.31\\microsoft.aspnetcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\danis\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.31\\microsoft.netcore.app.host.win-x64.8.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}
