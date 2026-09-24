@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALCULADORA"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/etOperando1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Operando 1"
+                android:textSize="15dp"
+                android:layout_margin="20dp"/>
+            <EditText
+                android:id="@+id/etOperando2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="Operando 2"
+                android:textSize="15dp"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/tvResultado"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dp">
+
+                <RadioButton
+                    android:id="@+id/rbSumar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sumar"/>
+
+                <RadioButton
+                    android:id="@+id/rbRestar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Restar"/>
+                <RadioButton
+                    android:id="@+id/rbMultiplicar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Multiplicar"/>
+                <RadioButton
+                    android:id="@+id/rbDividir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dividir"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
