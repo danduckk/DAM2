@@ -1,16 +1,38 @@
 namespace Trivial
 {
-    public partial class Form1 : Form
+    public partial class Capitales : Form
     {
-        public Form1()
+        public Capitales()
         {
             InitializeComponent();
         }
 
-        private void inicializarPaisesYCapitales()
+        private void Capitales_Load(object sender, EventArgs e)
         {
-            string[] paises = {"Alemania", "Francia", "EspaÃ±a", "Italia", "Portugal"};
-            string[] capitales = {"BerlÃ­n", "ParÃ­s", "Madrid", "Roma", "Lisboa"};
+
+        }
+
+        String[] paises = { "España", "Francia", "Portugal", "Alemania" };
+        String[] capitales = { "Madrid", "París", "Lisboa", "Berlín" };
+
+        Random rand = new Random();
+
+        int respuestaCorrecta;
+        int seleccion;
+
+        private void generarRonda()
+        {
+            int numeroRandom = rand.Next(0, paises.Length + 1);
+            lblPregunta.Text = paises[numeroRandom];
+        }
+        private void comprobar()
+        {
+
+        }
+
+        private void nuevaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            generarRonda();
         }
     }
 }
