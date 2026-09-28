@@ -64,6 +64,7 @@
             // 
             // partidaToolStripMenuItem
             // 
+            partidaToolStripMenuItem.CheckOnClick = true;
             partidaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { nuevaToolStripMenuItem, toolStripSeparator1, salirToolStripMenuItem });
             partidaToolStripMenuItem.Name = "partidaToolStripMenuItem";
             partidaToolStripMenuItem.Size = new Size(56, 20);
@@ -72,23 +73,23 @@
             // nuevaToolStripMenuItem
             // 
             nuevaToolStripMenuItem.Name = "nuevaToolStripMenuItem";
-            nuevaToolStripMenuItem.Size = new Size(180, 22);
+            nuevaToolStripMenuItem.Size = new Size(108, 22);
             nuevaToolStripMenuItem.Text = "Nueva";
-            nuevaToolStripMenuItem.Click += nuevaToolStripMenuItem_Click;
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(177, 6);
+            toolStripSeparator1.Size = new Size(105, 6);
             // 
             // salirToolStripMenuItem
             // 
             salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(180, 22);
+            salirToolStripMenuItem.Size = new Size(108, 22);
             salirToolStripMenuItem.Text = "Salir";
             // 
             // opcionesToolStripMenuItem
             // 
+            opcionesToolStripMenuItem.CheckOnClick = true;
             opcionesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { nombreCapitalesToolStripMenuItem, nombrePaisesToolStripMenuItem, toolStripSeparator2, multiplesOpcionesToolStripMenuItem, escribirRespuestaToolStripMenuItem });
             opcionesToolStripMenuItem.Name = "opcionesToolStripMenuItem";
             opcionesToolStripMenuItem.Size = new Size(69, 20);
@@ -227,7 +228,6 @@
             lblResultado.Name = "lblResultado";
             lblResultado.Size = new Size(125, 23);
             lblResultado.TabIndex = 15;
-            lblResultado.Text = "label1";
             lblResultado.TextAlign = ContentAlignment.TopCenter;
             // 
             // lblPorcentaje
@@ -239,6 +239,7 @@
             lblPorcentaje.Name = "lblPorcentaje";
             lblPorcentaje.Size = new Size(30, 25);
             lblPorcentaje.TabIndex = 16;
+            lblPorcentaje.Text = "0%";
             lblPorcentaje.TextAlign = ContentAlignment.TopCenter;
             // 
             // Capitales
@@ -262,7 +263,6 @@
             Name = "Capitales";
             StartPosition = FormStartPosition.Manual;
             Text = "Form1";
-            Load += Capitales_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
