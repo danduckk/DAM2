@@ -1,9 +1,10 @@
 package primerosEjercicios;
 
 import java.io.File;
+import java.io.IOException;
 
 public class ejercicio4 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         File f = new File(".");
         f.mkdir();
 

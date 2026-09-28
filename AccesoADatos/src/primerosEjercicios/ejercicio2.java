@@ -11,7 +11,7 @@ public class ejercicio2 {
         File actual = new File(".");
 
         try {
-            System.out.println("Directorio actual: " + actual.getAbsolutePath());
+            System.out.println(actual.getCanonicalPath());
         } catch (IOException e) {
             e.printStackTrace();
         }
