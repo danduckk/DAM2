@@ -144,6 +144,7 @@
             // 
             // btnSiguiente
             // 
+            btnSiguiente.Enabled = false;
             btnSiguiente.Location = new Point(12, 373);
             btnSiguiente.Name = "btnSiguiente";
             btnSiguiente.Size = new Size(142, 23);
@@ -183,6 +184,7 @@
             lblOpcion4.Size = new Size(729, 39);
             lblOpcion4.TabIndex = 11;
             lblOpcion4.TextAlign = ContentAlignment.TopCenter;
+            lblOpcion4.Click += Opcion_Click;
             // 
             // lblOpcion3
             // 
@@ -195,6 +197,7 @@
             lblOpcion3.Size = new Size(729, 39);
             lblOpcion3.TabIndex = 12;
             lblOpcion3.TextAlign = ContentAlignment.TopCenter;
+            lblOpcion3.Click += Opcion_Click;
             // 
             // lblOpcion2
             // 
@@ -207,6 +210,7 @@
             lblOpcion2.Size = new Size(729, 39);
             lblOpcion2.TabIndex = 13;
             lblOpcion2.TextAlign = ContentAlignment.TopCenter;
+            lblOpcion2.Click += Opcion_Click;
             // 
             // lblOpcion1
             // 
@@ -219,6 +223,7 @@
             lblOpcion1.Size = new Size(729, 39);
             lblOpcion1.TabIndex = 14;
             lblOpcion1.TextAlign = ContentAlignment.TopCenter;
+            lblOpcion1.Click += Opcion_Click;
             // 
             // lblResultado
             // 

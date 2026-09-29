@@ -5,6 +5,7 @@ namespace Trivial
         // Campos
         private List<string> paises = new List<string>();
         private List<string> capitales = new List<string>();
+        Label[] opciones;
         Random azar = new Random();
 
         // Estado de la partida
@@ -49,8 +50,8 @@ namespace Trivial
         {
             indiceActual = azar.Next(paises.Count);
             lblPregunta.Text = paises[indiceActual];
+            opciones = new Label[] { lblOpcion1, lblOpcion2, lblOpcion3, lblOpcion4 };
             int posicionCorrecta = azar.Next(4);
-            Label[] opciones = { lblOpcion1, lblOpcion2, lblOpcion3, lblOpcion4 };
             List<int> usados = new List<int>();
             usados.Add(indiceActual);
             for (int i = 0; i < 4; i++)
@@ -61,12 +62,38 @@ namespace Trivial
                 }
                 else
                 {
-                    int candidato = azar.Next(8);
+                    int candidato = azar.Next(paises.Count);
 
-                    while (candidato = usados.)
+                    while (usados.Contains(candidato))
+                    {
+                        candidato = azar.Next(paises.Count);
+
+                    }
+
+                    usados.Add(candidato);
+                    opciones[i].Text = capitales[candidato];
+
                 }
             }
+        }
 
+        private void Opcion_Click(object sender, EventArgs e)
+        {
+            Label pulsado = (Label)sender; // cast para pasarlo de object a Label
+            if (pulsado.Text == capitales[indiceActual])
+            {
+                lblResultado.Text = "¡Correcto!";
+                btnSiguiente.Enabled = true;
+                preguntasHechas++;
+                aciertos++;
+            }
+            else
+            {
+                lblResultado.Text = "¡Incorrecto!";
+                btnSiguiente.Enabled = true;
+                preguntasHechas++;
+            }
         }
     }
 }
+
