@@ -16,13 +16,7 @@ public class Ejercicio20 {
     public static void main(String[] args) throws FileNotFoundException {
 
         File origen = new File("numNaturales.txt");
-
-        // OUTPUT
-        FileOutputStream fw = new FileOutputStream("ejercicio20.dat", false);
-        DataOutputStream ds = new DataOutputStream(fw);
-
-        // INPUT
-        DataInputStream di = new DataInputStream(new FileInputStream("numNaturales.txt"));
+        File destino = new File("numNaturales2.txt");
 
         try (DataInputStream dis = new DataInputStream(new FileInputStream(origen));
                 DataOutputStream dos = new DataOutputStream(new FileOutputStream(destino))) {
