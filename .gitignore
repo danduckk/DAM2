@@ -7,9 +7,7 @@ obj/
 .settings/
 .classpath
 .project
-
 .idea/
 .gradle/
-build/
-*/build/
+app/build/
 *.iml
