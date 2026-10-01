@@ -1,0 +1,9 @@
+.vs/
+bin/
+obj/
+*.class
+*.user
+*.suo
+.settings/
+.classpath
+.project
