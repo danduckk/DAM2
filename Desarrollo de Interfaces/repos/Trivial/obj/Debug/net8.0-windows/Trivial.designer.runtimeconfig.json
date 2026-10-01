@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\danis\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\danis\\.nuget\\packages"
+      "C:\\Users\\daniel\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\daniel\\.nuget\\packages"
     ],
     "configProperties": {
       "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,

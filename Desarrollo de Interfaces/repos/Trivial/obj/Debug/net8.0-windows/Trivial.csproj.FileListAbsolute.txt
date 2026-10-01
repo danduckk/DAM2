@@ -32,3 +32,20 @@ C:\Users\danis\Desktop\DAM2\Desarrollo de Interfaces\repos\Trivial\obj\Debug\net
 C:\Users\danis\Desktop\DAM2\Desarrollo de Interfaces\repos\Trivial\obj\Debug\net8.0-windows\Trivial.genruntimeconfig.cache
 C:\Users\danis\Desktop\DAM2\Desarrollo de Interfaces\repos\Trivial\obj\Debug\net8.0-windows\ref\Trivial.dll
 C:\Users\danis\Desktop\DAM2\Desarrollo de Interfaces\repos\Trivial\obj\Debug\net8.0-windows\Trivial.csproj.Up2Date
+Z:\repos\Trivial\bin\Debug\net8.0-windows\Trivial.exe
+Z:\repos\Trivial\bin\Debug\net8.0-windows\Trivial.deps.json
+Z:\repos\Trivial\bin\Debug\net8.0-windows\Trivial.runtimeconfig.json
+Z:\repos\Trivial\bin\Debug\net8.0-windows\Trivial.dll
+Z:\repos\Trivial\bin\Debug\net8.0-windows\Trivial.pdb
+Z:\repos\Trivial\obj\Debug\net8.0-windows\Trivial.Capitales.resources
+Z:\repos\Trivial\obj\Debug\net8.0-windows\Trivial.csproj.GenerateResource.cache
+Z:\repos\Trivial\obj\Debug\net8.0-windows\Trivial.GeneratedMSBuildEditorConfig.editorconfig
+Z:\repos\Trivial\obj\Debug\net8.0-windows\Trivial.AssemblyInfoInputs.cache
+Z:\repos\Trivial\obj\Debug\net8.0-windows\Trivial.AssemblyInfo.cs
+Z:\repos\Trivial\obj\Debug\net8.0-windows\Trivial.csproj.CoreCompileInputs.cache
+Z:\repos\Trivial\obj\Debug\net8.0-windows\Trivial.dll
+Z:\repos\Trivial\obj\Debug\net8.0-windows\refint\Trivial.dll
+Z:\repos\Trivial\obj\Debug\net8.0-windows\Trivial.pdb
+Z:\repos\Trivial\obj\Debug\net8.0-windows\Trivial.genruntimeconfig.cache
+Z:\repos\Trivial\obj\Debug\net8.0-windows\ref\Trivial.dll
+Z:\repos\Trivial\obj\Debug\net8.0-windows\Trivial.csproj.Up2Date
