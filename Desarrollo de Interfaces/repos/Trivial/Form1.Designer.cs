@@ -30,9 +30,9 @@
         {
             menuStrip1 = new MenuStrip();
             partidaToolStripMenuItem = new ToolStripMenuItem();
-            nuevaToolStripMenuItem = new ToolStripMenuItem();
+            menuPartidaNueva = new ToolStripMenuItem();
             toolStripSeparator1 = new ToolStripSeparator();
-            salirToolStripMenuItem = new ToolStripMenuItem();
+            menuPartidaSalir = new ToolStripMenuItem();
             opcionesToolStripMenuItem = new ToolStripMenuItem();
             nombreCapitalesToolStripMenuItem = new ToolStripMenuItem();
             nombrePaisesToolStripMenuItem = new ToolStripMenuItem();
@@ -65,27 +65,29 @@
             // partidaToolStripMenuItem
             // 
             partidaToolStripMenuItem.CheckOnClick = true;
-            partidaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { nuevaToolStripMenuItem, toolStripSeparator1, salirToolStripMenuItem });
+            partidaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { menuPartidaNueva, toolStripSeparator1, menuPartidaSalir });
             partidaToolStripMenuItem.Name = "partidaToolStripMenuItem";
             partidaToolStripMenuItem.Size = new Size(56, 20);
             partidaToolStripMenuItem.Text = "Partida";
             // 
-            // nuevaToolStripMenuItem
+            // menuPartidaNueva
             // 
-            nuevaToolStripMenuItem.Name = "nuevaToolStripMenuItem";
-            nuevaToolStripMenuItem.Size = new Size(108, 22);
-            nuevaToolStripMenuItem.Text = "Nueva";
+            menuPartidaNueva.Name = "menuPartidaNueva";
+            menuPartidaNueva.Size = new Size(180, 22);
+            menuPartidaNueva.Text = "Nueva";
+            menuPartidaNueva.Click += menuPartidaNueva_Click;
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(105, 6);
+            toolStripSeparator1.Size = new Size(177, 6);
             // 
-            // salirToolStripMenuItem
+            // menuPartidaSalir
             // 
-            salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(108, 22);
-            salirToolStripMenuItem.Text = "Salir";
+            menuPartidaSalir.Name = "menuPartidaSalir";
+            menuPartidaSalir.Size = new Size(180, 22);
+            menuPartidaSalir.Text = "Salir";
+            menuPartidaSalir.Click += btnSalir_Click;
             // 
             // opcionesToolStripMenuItem
             // 
@@ -151,6 +153,7 @@
             btnSiguiente.TabIndex = 8;
             btnSiguiente.Text = "Siguiente";
             btnSiguiente.UseVisualStyleBackColor = true;
+            btnSiguiente.Click += btnSiguiente_Click;
             // 
             // btnSalir
             // 
@@ -160,6 +163,7 @@
             btnSalir.TabIndex = 9;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
             // lblPregunta
             // 
@@ -242,7 +246,7 @@
             lblPorcentaje.ForeColor = SystemColors.ActiveCaptionText;
             lblPorcentaje.Location = new Point(616, 392);
             lblPorcentaje.Name = "lblPorcentaje";
-            lblPorcentaje.Size = new Size(30, 25);
+            lblPorcentaje.Size = new Size(35, 25);
             lblPorcentaje.TabIndex = 16;
             lblPorcentaje.Text = "0%";
             lblPorcentaje.TextAlign = ContentAlignment.TopCenter;
@@ -278,9 +282,9 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem partidaToolStripMenuItem;
-        private ToolStripMenuItem nuevaToolStripMenuItem;
+        private ToolStripMenuItem menuPartidaNueva;
         private ToolStripSeparator toolStripSeparator1;
-        private ToolStripMenuItem salirToolStripMenuItem;
+        private ToolStripMenuItem menuPartidaSalir;
         private ToolStripMenuItem opcionesToolStripMenuItem;
         private ToolStripMenuItem nombreCapitalesToolStripMenuItem;
         private ToolStripMenuItem nombrePaisesToolStripMenuItem;

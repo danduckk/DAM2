@@ -18,7 +18,7 @@ namespace Trivial
         {
             InitializeComponent();
             CargarDatos();
-            NuevaPregunta();
+            IniciarPartida();
         }
 
         // Eventos
@@ -37,13 +37,18 @@ namespace Trivial
         private void CargarDatos()
         {
             AnadirPais("España", "Madrid");
-            AnadirPais("París", "Francia");
+            AnadirPais("Francia", "París");
             AnadirPais("Alemania", "Berlín");
             AnadirPais("Polonia", "Varsovia");
             AnadirPais("Bélgica", "Bruselas");
             AnadirPais("Países Bajos", "Amsterdam");
             AnadirPais("Rumanía", "Bucarest");
             AnadirPais("Grecia", "Atenas");
+            AnadirPais("Noruega", "Oslo");
+            AnadirPais("Dinamarca", "Copenhague");
+            AnadirPais("Turquía", "Ankara");
+            AnadirPais("Rusia", "Moscú");
+
         }
 
         private void NuevaPregunta()
@@ -54,6 +59,16 @@ namespace Trivial
             int posicionCorrecta = azar.Next(4);
             List<int> usados = new List<int>();
             usados.Add(indiceActual);
+
+            // Deshacer todo lo de la anterior pregunta
+            for (int i = 0; i < opciones.Length; i++)
+            {
+                opciones[i].BackColor = SystemColors.ControlLightLight;
+                opciones[i].Enabled = true;
+            }
+            lblResultado.Text = "";
+            btnSiguiente.Enabled = false;
+
             for (int i = 0; i < 4; i++)
             {
                 if (i == posicionCorrecta)
@@ -83,16 +98,73 @@ namespace Trivial
             if (pulsado.Text == capitales[indiceActual])
             {
                 lblResultado.Text = "¡Correcto!";
-                btnSiguiente.Enabled = true;
-                preguntasHechas++;
+                pulsado.BackColor = Color.Lime;
                 aciertos++;
+                for (int i = 0; i < opciones.Length; i++)
+                {
+                    if (opciones[i] != pulsado)
+                    {
+                        opciones[i].Text = "";
+                    }
+                }
             }
             else
             {
                 lblResultado.Text = "¡Incorrecto!";
-                btnSiguiente.Enabled = true;
-                preguntasHechas++;
+                pulsado.BackColor = Color.Red;
+                for (int i = 0; i < opciones.Length; i++)
+                {
+                    if (opciones[i].Text == capitales[indiceActual])
+                    {
+                        opciones[i].BackColor = Color.Lime;
+                    }
+                }
             }
+            for (int i = 0; i < opciones.Length; i++)
+            {
+                opciones[i].Enabled = false;
+            }
+            preguntasHechas++;
+            int porcentajeAciertos = (aciertos * 100) / preguntasHechas;
+            lblPorcentaje.Text = Convert.ToString(porcentajeAciertos) + "%";
+            btnSiguiente.Enabled = true;
+        }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            if (preguntasHechas >= 11)
+            {
+                lblPregunta.Text = "Has acertado " + aciertos + "/" + preguntasHechas;
+                lblResultado.Text = "FINAL";
+                btnSiguiente.Enabled = false;
+                for (int i = 0; i < opciones.Length; i++)
+                {
+                    opciones[i].Text = "";
+                    opciones[i].BackColor = SystemColors.ControlLightLight;
+                }
+            }
+            else
+            {
+                NuevaPregunta();
+            }
+        }
+
+        private void IniciarPartida()
+        {
+            aciertos = 0;
+            preguntasHechas = 0;
+            lblPorcentaje.Text = "0%";
+            NuevaPregunta();
+        }
+
+        private void menuPartidaNueva_Click(object sender, EventArgs e)
+        {
+            IniciarPartida();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
