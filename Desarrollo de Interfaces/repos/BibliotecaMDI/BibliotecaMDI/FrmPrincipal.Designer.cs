@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             menuStrip1 = new MenuStrip();
             ficheroToolStripMenuItem = new ToolStripMenuItem();
             MnuAlta = new ToolStripMenuItem();
@@ -35,8 +36,12 @@
             toolStripMenuItem1 = new ToolStripSeparator();
             MnuSalir = new ToolStripMenuItem();
             button1 = new Button();
-            button2 = new Button();
+            ofdFoto = new OpenFileDialog();
+            statusStrip1 = new StatusStrip();
+            lblHora = new ToolStripStatusLabel();
+            timer1 = new System.Windows.Forms.Timer(components);
             menuStrip1.SuspendLayout();
+            statusStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
@@ -87,7 +92,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(149, 313);
+            button1.Location = new Point(574, 256);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 3;
@@ -95,15 +100,34 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // button2
+            // ofdFoto
             // 
-            button2.Location = new Point(404, 295);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 5;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            ofdFoto.FileName = "openFileDialog1";
+            ofdFoto.HelpRequest += button1_Click;
+            // 
+            // statusStrip1
+            // 
+            statusStrip1.ImageScalingSize = new Size(24, 24);
+            statusStrip1.Items.AddRange(new ToolStripItem[] { lblHora });
+            statusStrip1.Location = new Point(0, 418);
+            statusStrip1.Name = "statusStrip1";
+            statusStrip1.Size = new Size(800, 32);
+            statusStrip1.TabIndex = 9;
+            statusStrip1.Text = "statusStrip1";
+            statusStrip1.ItemClicked += statusStrip1_ItemClicked;
+            // 
+            // lblHora
+            // 
+            lblHora.Name = "lblHora";
+            lblHora.Size = new Size(739, 25);
+            lblHora.Spring = true;
+            lblHora.Text = "toolStripStatusLabel1";
+            lblHora.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Interval = 1000;
             // 
             // frmPrincipal
             // 
@@ -112,15 +136,17 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(800, 450);
-            Controls.Add(button2);
+            Controls.Add(statusStrip1);
             Controls.Add(button1);
             Controls.Add(menuStrip1);
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
             Name = "frmPrincipal";
-            Text = "FrmPrincipal";
+            Text = "Gestión Biblioteca";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
+            statusStrip1.ResumeLayout(false);
+            statusStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -134,6 +160,9 @@
         private ToolStripMenuItem MnuSalir;
         private ToolStripSeparator toolStripMenuItem1;
         private Button button1;
-        private Button button2;
+        private OpenFileDialog ofdFoto;
+        private StatusStrip statusStrip1;
+        private ToolStripStatusLabel lblHora;
+        private System.Windows.Forms.Timer timer1;
     }
 }

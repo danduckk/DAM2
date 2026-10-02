@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\daniel\\source\\repos\\BIBLIOTECA\\BIBLIOTECA\\BIBLIOTECA.csproj": {}
+    "Z:\\repos\\BIBLIOTECA\\BIBLIOTECA\\BIBLIOTECA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\daniel\\source\\repos\\BIBLIOTECA\\BIBLIOTECA\\BIBLIOTECA.csproj": {
+    "Z:\\repos\\BIBLIOTECA\\BIBLIOTECA\\BIBLIOTECA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\daniel\\source\\repos\\BIBLIOTECA\\BIBLIOTECA\\BIBLIOTECA.csproj",
+        "projectUniqueName": "Z:\\repos\\BIBLIOTECA\\BIBLIOTECA\\BIBLIOTECA.csproj",
         "projectName": "BIBLIOTECA",
-        "projectPath": "C:\\Users\\daniel\\source\\repos\\BIBLIOTECA\\BIBLIOTECA\\BIBLIOTECA.csproj",
+        "projectPath": "Z:\\repos\\BIBLIOTECA\\BIBLIOTECA\\BIBLIOTECA.csproj",
         "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\daniel\\source\\repos\\BIBLIOTECA\\BIBLIOTECA\\obj\\",
+        "outputPath": "Z:\\repos\\BIBLIOTECA\\BIBLIOTECA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",

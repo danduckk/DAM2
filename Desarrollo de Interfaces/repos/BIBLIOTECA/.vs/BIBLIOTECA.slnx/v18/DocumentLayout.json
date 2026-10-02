@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\daniel\\source\\repos\\BIBLIOTECA\\",
+  "WorkspaceRootPath": "Z:\\repos\\BIBLIOTECA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|BIBLIOTECA\\BIBLIOTECA.csproj|c:\\users\\daniel\\source\\repos\\biblioteca\\biblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB32BF9B-6FCF-FA0E-D3D0-9D9007316B70}|..\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj|z:\\repos\\bibliotecamdi\\bibliotecamdi\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB32BF9B-6FCF-FA0E-D3D0-9D9007316B70}|..\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj|z:\\repos\\bibliotecamdi\\bibliotecamdi\\frmalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB32BF9B-6FCF-FA0E-D3D0-9D9007316B70}|..\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj|z:\\repos\\bibliotecamdi\\bibliotecamdi\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB32BF9B-6FCF-FA0E-D3D0-9D9007316B70}|..\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj|z:\\repos\\bibliotecamdi\\bibliotecamdi\\frmconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|BIBLIOTECA\\BIBLIOTECA.csproj|z:\\repos\\biblioteca\\biblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB1DC82-A9FE-F0AD-2BCF-980D2D370EA7}|BIBLIOTECA\\BIBLIOTECA.csproj|solutionrelative:biblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +26,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Libro.cs",
-              "DocumentMoniker": "C:\\Users\\daniel\\source\\repos\\BIBLIOTECA\\BIBLIOTECA\\Libro.cs",
+              "DocumentMoniker": "Z:\\repos\\BIBLIOTECA\\BIBLIOTECA\\Libro.cs",
               "RelativeDocumentMoniker": "BIBLIOTECA\\Libro.cs",
-              "ToolTip": "C:\\Users\\daniel\\source\\repos\\BIBLIOTECA\\BIBLIOTECA\\Libro.cs",
+              "ToolTip": "Z:\\repos\\BIBLIOTECA\\BIBLIOTECA\\Libro.cs",
               "RelativeToolTip": "BIBLIOTECA\\Libro.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T11:01:38.727Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "Z:\\repos\\BibliotecaMDI\\BibliotecaMDI\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaMDI\\BibliotecaMDI\\FrmPrincipal.cs",
+              "ToolTip": "Z:\\repos\\BibliotecaMDI\\BibliotecaMDI\\FrmPrincipal.cs",
+              "RelativeToolTip": "..\\BibliotecaMDI\\BibliotecaMDI\\FrmPrincipal.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T10:43:46.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmAlta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "Z:\\repos\\BibliotecaMDI\\BibliotecaMDI\\FrmAlta.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaMDI\\BibliotecaMDI\\FrmAlta.cs",
+              "ToolTip": "Z:\\repos\\BibliotecaMDI\\BibliotecaMDI\\FrmAlta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\BibliotecaMDI\\BibliotecaMDI\\FrmAlta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T10:42:35.528Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "Z:\\repos\\BibliotecaMDI\\BibliotecaMDI\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaMDI\\BibliotecaMDI\\FrmPrincipal.cs",
+              "ToolTip": "Z:\\repos\\BibliotecaMDI\\BibliotecaMDI\\FrmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\BibliotecaMDI\\BibliotecaMDI\\FrmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T10:42:30.308Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmConsulta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "Z:\\repos\\BibliotecaMDI\\BibliotecaMDI\\FrmConsulta.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaMDI\\BibliotecaMDI\\FrmConsulta.cs",
+              "ToolTip": "Z:\\repos\\BibliotecaMDI\\BibliotecaMDI\\FrmConsulta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\BibliotecaMDI\\BibliotecaMDI\\FrmConsulta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T10:42:33.825Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

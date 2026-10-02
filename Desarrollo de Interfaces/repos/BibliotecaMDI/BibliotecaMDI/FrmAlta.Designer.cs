@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FrmAlta";
+            pcbPortada = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pcbPortada).BeginInit();
+            SuspendLayout();
+            // 
+            // pcbPortada
+            // 
+            pcbPortada.Location = new Point(655, 62);
+            pcbPortada.Name = "pcbPortada";
+            pcbPortada.Size = new Size(225, 324);
+            pcbPortada.TabIndex = 0;
+            pcbPortada.TabStop = false;
+            // 
+            // FrmAlta
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1011, 754);
+            Controls.Add(pcbPortada);
+            Name = "FrmAlta";
+            Text = "FrmAlta";
+            ((System.ComponentModel.ISupportInitialize)pcbPortada).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private PictureBox pcbPortada;
     }
 }

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\daniel\\source\\repos\\BibliotecaMDI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F21EEE17-26CF-4815-88FC-3140D36250DD}|BibliotecaMDI\\BibliotecaMDI.csproj|c:\\users\\daniel\\source\\repos\\bibliotecamdi\\bibliotecamdi\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F21EEE17-26CF-4815-88FC-3140D36250DD}|BibliotecaMDI\\BibliotecaMDI.csproj|solutionrelative:bibliotecamdi\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\daniel\\source\\repos\\BibliotecaMDI\\BibliotecaMDI\\FrmPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BibliotecaMDI\\FrmPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F21EEE17-26CF-4815-88FC-3140D36250DD}|BibliotecaMDI\\BibliotecaMDI.csproj|c:\\users\\daniel\\source\\repos\\bibliotecamdi\\bibliotecamdi\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F21EEE17-26CF-4815-88FC-3140D36250DD}|BibliotecaMDI\\BibliotecaMDI.csproj|solutionrelative:bibliotecamdi\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\daniel\\source\\repos\\BibliotecaMDI\\bibliotecamdi\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bibliotecamdi\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F21EEE17-26CF-4815-88FC-3140D36250DD}|BibliotecaMDI\\BibliotecaMDI.csproj|c:\\users\\daniel\\source\\repos\\bibliotecamdi\\bibliotecamdi\\frmconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F21EEE17-26CF-4815-88FC-3140D36250DD}|BibliotecaMDI\\BibliotecaMDI.csproj|solutionrelative:bibliotecamdi\\frmconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\daniel\\source\\repos\\BibliotecaMDI\\bibliotecamdi\\frmconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bibliotecamdi\\frmconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F21EEE17-26CF-4815-88FC-3140D36250DD}|BibliotecaMDI\\BibliotecaMDI.csproj|c:\\users\\daniel\\source\\repos\\bibliotecamdi\\bibliotecamdi\\frmalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F21EEE17-26CF-4815-88FC-3140D36250DD}|BibliotecaMDI\\BibliotecaMDI.csproj|solutionrelative:bibliotecamdi\\frmalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\daniel\\source\\repos\\BibliotecaMDI\\bibliotecamdi\\frmalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bibliotecamdi\\frmalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +50,7 @@
               "ToolTip": "C:\\Users\\daniel\\source\\repos\\BibliotecaMDI\\BibliotecaMDI\\FrmPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "BibliotecaMDI\\FrmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T09:57:35.761Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-10-01T09:57:35.761Z"
             },
             {
               "$type": "Document",
@@ -62,8 +61,7 @@
               "ToolTip": "C:\\Users\\daniel\\source\\repos\\BibliotecaMDI\\BibliotecaMDI\\FrmConsulta.cs [Dise\u00F1o]",
               "RelativeToolTip": "BibliotecaMDI\\FrmConsulta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T09:57:12.772Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-10-01T09:57:12.772Z"
             },
             {
               "$type": "Document",
@@ -74,8 +72,7 @@
               "ToolTip": "C:\\Users\\daniel\\source\\repos\\BibliotecaMDI\\BibliotecaMDI\\FrmAlta.cs [Dise\u00F1o]",
               "RelativeToolTip": "BibliotecaMDI\\FrmAlta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T09:56:57.77Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-10-01T09:56:57.77Z"
             }
           ]
         }

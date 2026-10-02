@@ -26,10 +26,12 @@ namespace BibliotecaMDI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            foreach (Form f in MdiChildren)
-            {
-                MessageBox.Show(f.GetType().ToString());
-            }
+            button1.FileName = "";
+            button1.Filter = "jpg files (*.jpg)|*.jpg|All files(*.*)|*.*";
+            button1.InitialDirectory = "C:\\";
+            button1.ShowDialog();
+            Bitmap imagen = new Bitmap(button1.FileName);
+            pcbPortada.Image = imagen;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -40,6 +42,11 @@ namespace BibliotecaMDI
         private void MnuSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

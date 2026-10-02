@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\daniel\\source\\repos\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj",
+      "projectUniqueName": "Z:\\repos\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj",
       "projectName": "BibliotecaMDI",
-      "projectPath": "C:\\Users\\daniel\\source\\repos\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj",
+      "projectPath": "Z:\\repos\\BibliotecaMDI\\BibliotecaMDI\\BibliotecaMDI.csproj",
       "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\daniel\\source\\repos\\BibliotecaMDI\\BibliotecaMDI\\obj\\",
+      "outputPath": "Z:\\repos\\BibliotecaMDI\\BibliotecaMDI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
