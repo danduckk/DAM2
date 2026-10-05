@@ -1,4 +1,3 @@
 <Solution>
-  <Project Path="../BibliotecaMDI/BibliotecaMDI/BibliotecaMDI.csproj" />
   <Project Path="BIBLIOTECA/BIBLIOTECA.csproj" />
 </Solution>

@@ -16,5 +16,16 @@ namespace BIBLIOTECA
         {
             InitializeComponent();
         }
+
+        private void FrmAlta_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCargarFoto_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialogo = new OpenFileDialog();
+            dialogo.Filter = "archivos jpg (*.jpg)|*.jpg|Todos (*.*)|*.*";
+        }
     }
 }

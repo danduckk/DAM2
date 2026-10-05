@@ -1,6 +1,6 @@
 ﻿namespace BIBLIOTECA
 {
-    partial class Form1
+    partial class FrmPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -43,7 +43,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { ficheroToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 33);
+            menuStrip1.Size = new Size(867, 33);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -60,7 +60,7 @@
             altaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.A;
             altaToolStripMenuItem.Size = new Size(270, 34);
             altaToolStripMenuItem.Text = "Alta";
-            altaToolStripMenuItem.Click += altaToolStripMenuItem_Click;
+            altaToolStripMenuItem.Click += MnuAlta_Click;
             // 
             // consultaToolStripMenuItem
             // 
@@ -68,6 +68,7 @@
             consultaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.C;
             consultaToolStripMenuItem.Size = new Size(270, 34);
             consultaToolStripMenuItem.Text = "Consulta";
+            consultaToolStripMenuItem.Click += MnuConsulta_Click;
             // 
             // toolStripMenuItem1
             // 
@@ -81,14 +82,15 @@
             salirToolStripMenuItem.Size = new Size(270, 34);
             salirToolStripMenuItem.Text = "Salir";
             // 
-            // Form1
+            // FrmPrincipal
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(867, 695);
             Controls.Add(menuStrip1);
+            IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
-            Name = "Form1";
+            Name = "FrmPrincipal";
             Text = "Gestión Biblioteca";
             Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
@@ -101,9 +103,9 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem ficheroToolStripMenuItem;
-        private ToolStripMenuItem altaToolStripMenuItem;
         private ToolStripMenuItem consultaToolStripMenuItem;
         private ToolStripSeparator toolStripMenuItem1;
         private ToolStripMenuItem salirToolStripMenuItem;
+        private ToolStripMenuItem altaToolStripMenuItem;
     }
 }
